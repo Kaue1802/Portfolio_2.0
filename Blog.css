@@ -55,11 +55,11 @@ header {
     margin: 0;
 }
 
-#FundoTexto h3 {
+.FundoTexto h3 {
     font-size: 1cm;
     margin-left: 1cm;
 }
-#FundoTexto span {
+.FundoTexto span {
     display: block;
     transform: translateY(-25.5px);
     height: 150px !important;
@@ -67,4 +67,23 @@ header {
     position: relative;
     z-index: -1;
 }
+#ContatoPai {
+    margin: auto;
+        margin-top: 1cm;
+        margin-bottom: 1cm;
+    padding: 1cm;
+    text-align: center;
+        width: 850px;
+        background-color: rgb(244, 244, 244);
+}
+#ContatoFilho {
+    display: grid;
+    justify-content: center;
+        text-align: center;
+}
+#ContatoFilho h3 {
+    font-size: 1cm;
+        margin-right: 1cm;
+}
+
 
