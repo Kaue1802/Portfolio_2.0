@@ -9,6 +9,10 @@ h1,h2,h3,h4 {
 b {
     font-weight: 900;
 }
+button {
+    padding-right: 1cm !important;
+    padding-left: 1cm !important;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -63,27 +67,39 @@ header {
     display: block;
     transform: translateY(-25.5px);
     height: 150px !important;
-    width: 850px !important;
+    width: 750px !important;
     position: relative;
     z-index: -1;
 }
+#CvPai {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 1cm;
+}
+#CvFilho {
+    width: 500px;
+    margin: auto;
+    margin-bottom: 1cm;
+    text-align: justify;
+}
+
+
 #ContatoPai {
     margin: auto;
         margin-top: 1cm;
         margin-bottom: 1cm;
     padding: 1cm;
-    text-align: center;
-        width: 850px;
+    text-align: justify;
+        width: 811px;
         background-color: rgb(244, 244, 244);
 }
 #ContatoFilho {
-    display: grid;
-    justify-content: center;
-        text-align: center;
+    margin: 1cm;
 }
 #ContatoFilho h3 {
-    font-size: 1cm;
-        margin-right: 1cm;
+    font-size: 1.3cm;
+    
 }
+
 
 
