@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 
 h1,h2,h3,h4 {
@@ -28,7 +29,8 @@ nav {
     text-align: center;
 }
 span {
-    background-color: rgb(240, 255, 0)
+    background-color: rgb(240, 255, 0);
+    font-size: unset !important;
 }
 ul {
     display: flex;
@@ -41,7 +43,6 @@ li {
 }
 header {
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     background-color: rgb(244, 244, 244);
     padding-bottom: 2cm;
@@ -51,8 +52,6 @@ header {
     display: flex;
     text-align: center;
     width: 11cm;
-    margin-right: 9cm;
-        margin-left: 9cm;
 }
 #Intro h3 {
     font-size: 1.2cm;
@@ -77,10 +76,19 @@ header {
     margin-bottom: 1cm;
 }
 #CvFilho {
-    width: 500px;
+    width: 350px;
     margin: auto;
     margin-bottom: 1cm;
     text-align: justify;
+}
+#CvFilho h3 {
+    font-size: 33px;
+    line-break: anywhere;
+}
+#CvFilho span {
+    background-color: rgb(15, 14, 14);
+    color: white;
+    padding: 1.5px;
 }
 
 
