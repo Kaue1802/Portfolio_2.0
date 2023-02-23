@@ -44,6 +44,7 @@ li {
 header {
     display: flex;
     align-items: center;
+        flex-wrap: wrap;
     background-color: rgb(244, 244, 244);
     padding-bottom: 2cm;
     margin-bottom: 1cm;
@@ -79,6 +80,7 @@ header {
     width: 350px;
     margin: auto;
     margin-bottom: 1cm;
+    margin-left: 30%;
     text-align: justify;
 }
 #CvFilho h3 {
