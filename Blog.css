@@ -41,6 +41,10 @@ li {
     list-style-type: none;
     margin: 0 1cm 0 1cm;
 }
+a {
+    color: blue;
+    text-decoration: none;
+}
 header {
     display: flex;
     align-items: center;
@@ -92,16 +96,29 @@ header {
     color: white;
     padding: 1.5px;
 }
+#Contato {
+    margin-top: 4cm;
+}
 
+#ImgAtras {
+    position: absolute;
+        z-index: 0;
+        right: -140px;
+        top: -150px;
+}
 
 #ContatoPai {
     margin: auto;
         margin-top: 1cm;
         margin-bottom: 1cm;
     padding: 1cm;
+        padding-left: 2cm;
+            padding-right: 2cm;
     text-align: justify;
         width: 811px;
         background-color: rgb(244, 244, 244);
+        position: relative;
+        z-index: 1;
 }
 #ContatoFilho {
     margin: 1cm;
@@ -111,5 +128,11 @@ header {
     
 }
 
-
+@media screen and (max-width: 767px) {
+    #ContatoPai {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+}
 
