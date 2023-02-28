@@ -136,3 +136,49 @@ header {
     }
 }
 
+.card {
+    width: 230px;
+    height: 300px;
+    margin: 0 auto;
+    background-color:rgb(12, 18, 18);
+    border-radius: 8px;
+    z-index: 1;
+}
+.cardTopo{
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+.Bola {
+    padding: 0 4px;
+}
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+}
+.red {
+    background-color: #ff605c;
+}
+.yellow {
+    background-color: #ffbd44;
+}
+.green {
+    background-color: #00ca4e;
+}
+.card_content {
+     padding: 15px 20px;
+}
+.card_content h3 {
+    font-size: 1rem;
+}
+.card_content p {
+    font-size: 0.75rem;
+}
+.tags img{
+    width: 22px;
+        height: 22px;
+}
