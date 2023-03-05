@@ -135,12 +135,16 @@ header {
         padding: 20px;
     }
 }
+#GrupoCard {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .card {
     width: 230px;
     height: 300px;
     margin: 0 auto;
-    background-color:rgb(12, 18, 18);
+    background-color:rgb(244, 244,244);
     border-radius: 8px;
     z-index: 1;
 }
@@ -181,7 +185,5 @@ header {
 .tags img{
     width: 22px;
         height: 22px;
-}
-#GrupoCard {
-    display: flex;
+    filter: invert(1);
 }
