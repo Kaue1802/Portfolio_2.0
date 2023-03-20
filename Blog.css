@@ -103,7 +103,7 @@ header {
 #ImgAtras {
     position: absolute;
         z-index: 0;
-        right: -140px;
+        right: -10%;
         top: -150px;
 }
 
